@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container-fluid{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+.page-menu ul{
+    list-style: none;
+}
+.page-menu ul li{
+    display: inline-block;
+    padding: 25px;
+}
+.page-menu ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: white;
+}
+.container{
+    margin-top: 15px;
+    padding: 10px 15px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: lightblue;
+}
+.card{
+    width: 200px;
+    height: 520px;
+    margin-top: 10px;
+}
+.card img{
+    height: 290px;
+
+}
+.card-body h1{
+    font-size: 20px;
+}
+.card-body h3{
+    font-size: 18px;
+}
+
